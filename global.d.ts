@@ -1,0 +1,3 @@
+interface icon {
+  className?: strng
+}

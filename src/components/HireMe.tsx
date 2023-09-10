@@ -1,5 +1,5 @@
 import React from 'react'
-import { RoudedText } from './Icons'
+import { RoudedText } from './Icons.js'
 import Link from 'next/link'
 
 const HireMe = () => {

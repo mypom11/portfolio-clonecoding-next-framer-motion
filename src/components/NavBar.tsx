@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
 import Logo from './Logo'
-import { GithubIcon, MoonIcon, SunIcon } from './Icons'
+import { GithubIcon, MoonIcon, SunIcon } from './Icons.js'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 
@@ -76,7 +76,7 @@ const NavBar = () => {
           whileHover={{ y: -2 }}
           className="w-6 mr-3"
         >
-          <GithubIcon />
+          <GithubIcon className="" />
         </motion.a>
         <motion.a
           href="/"
@@ -85,7 +85,7 @@ const NavBar = () => {
           whileHover={{ y: -2 }}
           className="w-6 mx-3"
         >
-          <GithubIcon />
+          <GithubIcon className="" />
         </motion.a>
         <motion.a
           href="/"
@@ -94,7 +94,7 @@ const NavBar = () => {
           whileHover={{ y: -2 }}
           className="w-6 mx-3"
         >
-          <GithubIcon />
+          <GithubIcon className="" />
         </motion.a>
         <motion.a
           href="/"
@@ -103,7 +103,7 @@ const NavBar = () => {
           whileHover={{ y: -2 }}
           className="w-6 mx-3"
         >
-          <GithubIcon />
+          <GithubIcon className="" />
         </motion.a>
         <motion.a
           href="/"
@@ -112,7 +112,7 @@ const NavBar = () => {
           whileHover={{ y: -2 }}
           className="w-6 mx-3"
         >
-          <GithubIcon />
+          <GithubIcon className="" />
         </motion.a>
         <button
           onClick={toggleTheme}

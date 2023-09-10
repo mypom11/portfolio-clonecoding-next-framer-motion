@@ -1,9 +1,6 @@
 import React from 'react'
 
-export const GithubIcon: React.FC<{ className?: string }> = ({
-  className,
-  ...rest
-}) => {
+export const GithubIcon = ({ className, ...rest }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -22,10 +19,7 @@ export const GithubIcon: React.FC<{ className?: string }> = ({
   )
 }
 
-export const LinkArrow: React.FC<{ className?: string }> = ({
-  className,
-  ...rest
-}) => {
+export const LinkArrow = ({ className, ...rest }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -48,10 +42,7 @@ export const LinkArrow: React.FC<{ className?: string }> = ({
   )
 }
 
-export const RoudedText: React.FC<{ className?: string }> = ({
-  className,
-  ...rest
-}) => {
+export const RoudedText = ({ className, ...rest }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -268,10 +259,7 @@ l14 -36 182 74 c100 41 185 78 190 83 4 4 0 24 -8 45 -18 42 -8 43 -145 -13
   )
 }
 
-export const SunIcon: React.FC<{ className?: string }> = ({
-  className,
-  ...rest
-}) => {
+export const SunIcon = ({ className, ...rest }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -450,10 +438,7 @@ export const SunIcon: React.FC<{ className?: string }> = ({
     </svg>
   )
 }
-export const MoonIcon: React.FC<{ className?: string }> = ({
-  className,
-  ...rest
-}) => {
+export const MoonIcon = ({ className, ...rest }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

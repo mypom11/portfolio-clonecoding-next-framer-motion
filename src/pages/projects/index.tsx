@@ -42,7 +42,7 @@ const FeaturedProject: React.FC<{
         <p className="my-2 font-medium text-dark dark:text-light">{summary}</p>
         <div className="mt-2 flex items-center">
           <Link href={gitLink} target="_blank" className="w-10">
-            <GithubIcon />
+            <GithubIcon className="" />
           </Link>
           <Link
             href={link}
@@ -96,7 +96,7 @@ const Project: React.FC<{
             Visit
           </Link>
           <Link href={gitLink} target="_blank" className="w-8">
-            <GithubIcon />
+            <GithubIcon className="" />
           </Link>
         </div>
       </div>
